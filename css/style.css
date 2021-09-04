@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans' ,sans-serif;
+}
+.header{
+    background: #3B5998;
+    overflow: hidden;
+    padding: 8px 0;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    max-width: 1200px;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+
+}
+.login-area{
+    width: 70%;
+    float: right;
+    color: #fff;
+    margin-right: -208px   /*genjam*/
+
+}
+.logo-area img{
+    width: 190px;
+    margin-top: 20px;
+    margin-left: -165px;   /*genjam*/
+}
+.login-area form{
+    float: left;
+
+}
+.login-area label,
+.login-area input{
+    display: block;
+}
+.login-area .email,
+.login-area .password{
+    float: left;
+    margin-right: 15px;
+}
+.login-area .login{
+    float: left;
+    margin-right: 0;
+}
+.login-area label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 100px;
+    padding: 2px 5px;
+}
+.login-area .password a{
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 12px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    margin-top: 24px;
+    padding: 2.8px 8px;
+}
+/* End Header area */
+
+.signup-area{
+    background: linear-gradient(#ffffff, #D4D9E9);
+    padding: 20px 0;
+}
+.signup-area::after{    /* bujhi na*/
+    content: '';        /* bujhi na*/
+    clear: both;        /* bujhi na*/
+    display: block;    /* bujhi na*/
+}
+.left-area{
+    width: 55%;
+    float: left;
+    margin-left:  -149px;  /*genjam*/
+}
+.left-area p{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: 600;
+    /*width: 90% */
+    margin-left:  -40px; /*genjam*/
+    margin-top:   25px; /*genjam*/
+
+}
+.left-area img{
+    width: 100%;
+    margin-left:  -40px; /*genjam*/
+}
+.right-area{
+    width: 45%;
+    float: left;
+    margin-left: 140px; /*genjam*/
+}
+.right-area h2{
+    font-size: 33px;
+    color: #333;
+    margin: 0px;
+
+}
+.right-area h4{
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 5px 0;
+    font-size: 18px;
+}
+.full-name{
+    overflow: hidden;
+}
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.surname{
+    width: 48%;
+    float: left;
+}
+.birthday{
+    overflow: hidden;
+}
+.birthday h4{
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+.birth-date{
+    overflow: hidden;
+    margin-right: 10px;
+}
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+
+}
+.gender{
+    margin-top: 20px;
+}
+.gender label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+.text-box{
+    margin-bottom: 20px;
+}
+.text-box p{
+    font-size:11px;
+    color: #777;
+    display:block;
+    font-family:Helvetica, Arial, sans-serif;
+    line-height:14.74px;
+    margin: 11px 0px;
+    width: 316px;
+}
+.text-box a{
+    text-decoration: none;
+    color: #385898;
+}
+.text-box a:hover{
+    text-decoration: underline;
+}
+.btn input{
+    background-color:rgb(105, 167, 78);
+    background-image:linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+    box-shadow:rgb(164, 227, 136) 0px 1px 1px 0px inset;
+    background-size: auto;
+    border-bottom-color:rgb(44, 81, 21);
+    border-style: solid;
+
+    padding: 7px 20px;
+    min-width: 194px;
+    position:relative;
+    text-align:center;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+
+    transition: 0.4s;
+}
+.btn{
+    margin-bottom: 30px;
+}
+.btn input:hover{
+    background-image:linear-gradient(rgb(87, 136, 67),rgb(103, 174, 85));
+    cursor: pointer;
+}
+.business{
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+}
+.business a{
+    text-decoration: none;
+    color: #365899;
+}
+.business a:hover{
+    text-decoration: underline;
+}
+  /*End signup area*/
+
+ .footer-area{
+     padding: 30px 0;
+     width: 100%;
+ }
+ .footer-area ul{
+     margin: 0;
+     padding: 0;
+ }
+ .footer-area ul li{
+    display: inline;
+ }
+.footer-area ul li a{
+    text-decoration: none;
+    color: #365899;
+    font-size: 13px;
+}
+.footer-area ul li.active a{
+    color: #737373;
+}
+.footer-area .top ul li{
+    margin-right: 8px;
+}
+.footer-area .middle ul li{
+    margin-right: 12px;
+}
+.footer-area .top ul li:last-child{
+    border: 1px solid #999;
+    padding: 0px 10px;
+}
+.footer-area .bottom{
+    margin-top: 20px;
+}
+.footer-area span{
+    color: #737373;
+    font-size: 13px;
+}
+.footer-area hr{
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}

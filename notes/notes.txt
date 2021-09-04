@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/fb-favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!--Start   Header-->
+    <header class="header">
+        <div class="container">
+            <div class="logo-area">
+                <img src="img/logo.png" alt="Facebook">
+            </div>
+            <div class="login-area">
+                <form action="#" method="post">
+                    <div class="email">
+                        <label for="email">Email or phone</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                        <a href="#">Forgotten account?</a>
+                    </div>
+                    <div class="login">
+                        <input type="submit" name="" value="Login">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!--Finish   Header-->
+
+    <!--Start   signup-->
+    <section class="signup-area">
+        <div class="container">
+        <div class="left-area">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+            <img src="img/connect-with-people.png" alt="people">
+        </div>
+        <div class="right-area">
+            <h2>Create an account</h2>
+            <h4>It's quick and easy.</h4>
+            <form action="#" method="post">
+                <div class="full-name">
+                    <div class="first-name">
+                        <input type="text" placeholder="First name">
+                    </div>
+                    <div class="surname">
+                        <input type="text" placeholder="Surname">
+                    </div>
+                </div>
+                <input type="text" placeholder="Mobile number or email address">
+                <input type="password" placeholder="New password">
+
+                <div class="birthday">
+                    <h4>Birthday</h4>
+                    <div class="birth-date">
+                        <select>
+                            <option value="day">Day</option>
+                            <option value="day">1</option>
+                            <option value="day">2</option>
+                            <option value="day">3</option>
+                            <option value="day">4</option>
+                            <option value="day">5</option>
+                        </select>
+                        <select>
+                            <option value="month">Month</option>
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="apr">Apr</option>
+                            <option value="may">May</option>
+                        </select>
+                        <select>
+                            <option value="year">Year</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                        </select>
+                    </div>
+
+                    <!---   <div class="birth-link">
+                        <a href="#">Why do I need to provide my date of birth?</a>
+                    </div>      --->
+
+                </div>
+
+                <div class="gender">
+                    <input id="female" name="gender" type="radio">
+                    <label for="female">Female</label>
+                    <input id="male" name="gender" type="radio">
+                    <label for="male">Male</label>
+                    <input id="custom" name="gender" type="radio">
+                    <label for="custom">Custom</label>
+                </div>
+
+                <div class="text-box">
+                    <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>,<a href="#">Data Policy</a>  and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                </div>
+
+                <div class="btn">
+                    <input type="submit" name="" value="Sign Up">
+                </div>
+            </form>
+
+            <span class="business">
+                <a href="#">Create a Page</a> for a celebrity, band or business.
+            </span>
+
+        </div>
+        </div>
+    </section>
+
+    <!--Finish   signup-->
+
+</body>
+</html>
+
+-------------------------------------------------------------------------
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans' ,sans-serif;
+}
+.header{
+    background: #3B5998;
+    overflow: hidden;
+    padding: 8px 0;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    max-width: 1200px;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+
+}
+.login-area{
+    width: 70%;
+    float: right;
+    color: #fff;
+    margin-right: -208px   /*genjam*/
+
+}
+.logo-area img{
+    width: 190px;
+    margin-top: 20px;
+    margin-left: -165px;   /*genjam*/
+}
+.login-area form{
+    float: left;
+
+}
+.login-area label,
+.login-area input{
+    display: block;
+}
+.login-area .email,
+.login-area .password{
+    float: left;
+    margin-right: 15px;
+}
+.login-area .login{
+    float: left;
+    margin-right: 0;
+}
+.login-area label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 100px;
+    padding: 2px 5px;
+}
+.login-area .password a{
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 12px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    margin-top: 24px;
+    padding: 2.8px 8px;
+}
+/* End Header area */
+
+.signup-area{
+    background: linear-gradient(#ffffff, #D4D9E9);
+    padding: 20px 0;
+}
+.signup-area::after{    /* bujhi na*/
+    content: '';        /* bujhi na*/
+    clear: both;        /* bujhi na*/
+    display: block;    /* bujhi na*/
+}
+.left-area{
+    width: 55%;
+    float: left;
+    margin-left:  -149px;  /*genjam*/
+}
+.left-area p{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: 600;
+    /*width: 90% */
+    margin-left:  -40px; /*genjam*/
+    margin-top:   25px; /*genjam*/
+
+}
+.left-area img{
+    width: 100%;
+    margin-left:  -40px; /*genjam*/
+}
+.right-area{
+    width: 45%;
+    float: left;
+    margin-left: 140px; /*genjam*/
+}
+.right-area h2{
+    font-size: 33px;
+    color: #333;
+    margin: 0px;
+
+}
+.right-area h4{
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 5px 0;
+    font-size: 18px;
+}
+.full-name{
+    overflow: hidden;
+}
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.surname{
+    width: 48%;
+    float: left;
+}
+.birthday{
+    overflow: hidden;
+}
+.birthday h4{
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+.birth-date{
+    overflow: hidden;
+    margin-right: 10px;
+}
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+
+}
+.gender{
+    margin-top: 20px;
+}
+.gender label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+.text-box{
+    margin-bottom: 20px;
+}
+.text-box p{
+    font-size:11px;
+    color: #777;
+    display:block;
+    font-family:Helvetica, Arial, sans-serif;
+    line-height:14.74px;
+    margin: 11px 0px;
+    width: 316px;
+}
+.text-box a{
+    text-decoration: none;
+    color: #385898;
+}
+.text-box a:hover{
+    text-decoration: underline;
+}
+.btn input{
+    background-color:rgb(105, 167, 78);
+    background-image:linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+    box-shadow:rgb(164, 227, 136) 0px 1px 1px 0px inset;
+    background-size: auto;
+    border-bottom-color:rgb(44, 81, 21);
+    border-style: solid;
+
+    padding: 7px 20px;
+    min-width: 194px;
+    position:relative;
+    text-align:center;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+
+    transition: 0.4s;
+}
+.btn{
+    margin-bottom: 30px;
+}
+.btn input:hover{
+    background-image:linear-gradient(rgb(87, 136, 67),rgb(103, 174, 85));
+    cursor: pointer;
+}
+.business{
+    font-size: 13px;
+    font-weight: 700;
+    color: #666;
+}
+.business a{
+    text-decoration: none;
+    color: #365899;
+}
+.business a:hover{
+    text-decoration: underline;
+}
+
+----------------------------------------------------
+
+
+@media screen and (max-width: 980px){
+    .logo-area{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login-area{
+        width: 100%;
+        margin: 15px auto;
+        float: none;
+    }
+    .login-area form{
+        float: none;
+    }
+    .left-area{
+        width: 100%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .left-area p{
+        width: 100%;
+    }
+    .right-area{
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .login-area{
+        width: 100%;
+    }
+    .login-area .email,
+    .login-area .password{
+        float: none;
+        margin-right: 0px;
+    }
+    .login-area .login{
+        float: none;
+        margin-right: 0;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+        width: 80%;
+        box-sizing: border-box;
+    }
+    .login-area input[type="submit"]{
+        margin-top: 10px;
+    }
+    .left-area{
+        width: 100%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .left-area p{
+        width: 100%;
+    }
+    .right-area{
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 60%;
+    }
+    .left-area{
+        width: 100%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .left-area p{
+        width: 100%;
+    }
+    .right-area{
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+}
